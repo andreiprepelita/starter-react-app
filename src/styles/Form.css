@@ -1,0 +1,146 @@
+.formContainer {
+    background-color: #dfe0e7;
+    height: 100%;
+}
+
+.header {
+    background-color: #ffffff;
+    font-size: x-large;
+    border: 3px solid;
+    border-radius: 16px;
+    height: 15%;
+    width: 70%;
+    gap: 0.5rem;
+}
+
+.content {
+    position: relative;
+    width: 70%;
+    height: 60%;
+    border: 3px solid;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.actions {
+    width: 70%;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: large;
+}
+
+.dislike {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    scale: 2;
+}
+
+.like {
+    position: absolute;
+    top: 85%;
+    right: 25%;
+    scale: 2;
+}
+
+.swipe {
+    position: absolute;
+    height: 20%;
+    top: 40%;
+    left: 10%;
+}
+
+.ipadLike {
+    position: absolute;
+    top: 87%;
+    right: 35%;
+    scale: 2;
+}
+
+.ipadDislike {
+    position: absolute;
+    top: 87%;
+    left: 35%;
+    scale: 2;
+}
+
+.pinch {
+    position: absolute;
+    height: 20%;
+    bottom: 10%;
+    left: 10%;
+}
+
+.found {
+    position: absolute;
+    height: 10%;
+    bottom: 8%;
+    left: 43%;
+}
+
+.foundIpad {
+    position: absolute;
+    height: 10%;
+    left: 43%;
+}
+
+.doubleTap {
+    position: absolute;
+    height: 20%;
+    bottom: 10%;
+    left: 25%;
+}
+
+.question {
+    font-size: large;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.imageContainer {
+    height: 85%;
+}
+
+.imageContainerIpad {
+    height: 100%;
+}
+
+.scale2 {
+    scale: 2;
+}
+
+.scale18 {
+    scale: 1.8;
+}
+
+.scale15 {
+    scale: 1.5;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.puf {
+    width: 70%;
+}
+
+.chart {
+    padding-top: 1rem;
+    /* display: block; */
+    /* height: 250px;
+    width: 370px; */
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.chartItem {
+    border: 1px solid;
+    padding: 2rem;
+}

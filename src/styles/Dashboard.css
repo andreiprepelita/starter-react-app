@@ -1,0 +1,32 @@
+.title {
+    background-color: #ffffff;
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 3px solid;
+}
+
+.filterContainer {
+    position: relative;
+    font-size: x-large;
+    background-color: #ffffff;
+}
+
+.dashboardContent {
+    height: 96%;
+}
+
+.filterList {
+    gap: 3rem;
+}
+
+.filter {
+    gap: 2rem;
+}
+
+.resultsContainer {
+    font-size: large;
+}
+
+.resultHeader {
+    font-size: x-large;
+}
