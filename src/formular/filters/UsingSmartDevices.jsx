@@ -23,7 +23,7 @@ const UsingSmartDevices = ({ setResults }) => {
             } else {
                 setExperienceError('');
                 const response = await axios(
-                    'https://formular-api.cyclic.app/find/usingSmartDevices',
+                    'https://hci-assistant-api.cyclic.app/find/usingSmartDevices',
                     {
                         method: 'get',
                         params: { usingSmartDevicesMin: usingSmartDevicesMin, usingSmartDevicesMax: usingSmartDevicesMax },

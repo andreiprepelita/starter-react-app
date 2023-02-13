@@ -8,7 +8,7 @@ const Gender = ({ setResults }) => {
 
     const genderOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/gender',
+            'https://hci-assistant-api.cyclic.app/find/gender',
             {
                 method: 'get',
                 params: { gender: JSON.stringify(gender) },

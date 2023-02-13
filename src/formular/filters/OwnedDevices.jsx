@@ -8,7 +8,7 @@ const OwnedDevices = ({ setResults }) => {
 
     const ownedDevicesOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/ownedDevices',
+            'https://hci-assistant-api.cyclic.app/find/ownedDevices',
             {
                 method: 'get',
                 params: { ownedDevices: JSON.stringify(ownedDevices) },

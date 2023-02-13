@@ -14,7 +14,7 @@ const MonetizationLevel = ({ setResults }) => {
 
     const monetizationLevelOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/monetizationLevel',
+            'https://hci-assistant-api.cyclic.app/find/monetizationLevel',
             {
                 method: 'get',
                 params: { monetizationLevel: JSON.stringify(monetizationLevel) },

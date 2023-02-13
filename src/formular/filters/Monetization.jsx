@@ -11,7 +11,7 @@ const Monetization = ({ setResults }) => {
 
     const monetizationOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/monetization',
+            'https://hci-assistant-api.cyclic.app/find/monetization',
             {
                 method: 'get',
                 params: { monetization: JSON.stringify(monetization) },

@@ -15,7 +15,7 @@ const Country = ({ setResults }) => {
         if (countryList.length > 0) {
             setCountryError('');
             const response = await axios(
-                'https://formular-api.cyclic.app/find/country',
+                'https://hci-assistant-api.cyclic.app/find/country',
                 {
                     method: 'get',
                     params: { countries: JSON.stringify(countryList) },

@@ -23,7 +23,7 @@ const Age = ({ setResults }) => {
             } else {
                 setAgeError('');
                 const response = await axios(
-                    'https://formular-api.cyclic.app/find/age',
+                    'https://hci-assistant-api.cyclic.app/find/age',
                     {
                         method: 'get',
                         params: { ageMin: ageMin, ageMax: ageMax },

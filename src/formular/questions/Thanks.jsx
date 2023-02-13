@@ -19,7 +19,7 @@ const ThanksAction = ({ data }) => {
     }
     const submit = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/save',
+            'https://hci-assistant-api.cyclic.app/save',
             {
                 method: 'post',
                 data: data,

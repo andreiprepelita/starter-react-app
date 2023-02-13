@@ -31,7 +31,7 @@ const WorkIndustry = ({ setResults }) => {
 
     const workIndustryOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/workIndustry',
+            'https://hci-assistant-api.cyclic.app/find/workIndustry',
             {
                 method: 'get',
                 params: { workIndustry: JSON.stringify(workIndustry) },

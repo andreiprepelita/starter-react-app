@@ -13,7 +13,7 @@ const MonthlyAmount = ({ setResults }) => {
 
     const monthlyAmountOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/monthlyAmount',
+            'https://hci-assistant-api.cyclic.app/find/monthlyAmount',
             {
                 method: 'get',
                 params: { monthlyAmount: JSON.stringify(monthlyAmount) },

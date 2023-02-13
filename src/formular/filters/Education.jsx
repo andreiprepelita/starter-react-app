@@ -8,7 +8,7 @@ const Education = ({ setResults }) => {
 
     const educationOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/education',
+            'https://hci-assistant-api.cyclic.app/find/education',
             {
                 method: 'get',
                 params: { education: JSON.stringify(education) },

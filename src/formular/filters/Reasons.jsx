@@ -15,7 +15,7 @@ const Reasons = ({ setResults }) => {
 
     const reasonsOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/reasons',
+            'https://hci-assistant-api.cyclic.app/find/reasons',
             {
                 method: 'get',
                 params: { reasons: JSON.stringify(reasons) },

@@ -8,7 +8,7 @@ const Activity = ({ setResults }) => {
 
     const activityOnClick = async () => {
         const response = await axios(
-            'https://formular-api.cyclic.app/find/activity',
+            'https://hci-assistant-api.cyclic.app/find/activity',
             {
                 method: 'get',
                 params: { activity: JSON.stringify(activity) },
